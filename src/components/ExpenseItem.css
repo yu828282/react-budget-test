@@ -1,0 +1,56 @@
+.item {
+  background-color: var(--mainWhite);
+  line-height: 1.5rem;
+  padding: 10px 20px;
+  margin-bottom: 1rem;
+  border : 1px solid #e0e0e0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.3s linear;
+}
+
+.item:hover{
+  width: 100%;
+  /* transform: scale(1.01); */
+  background-color: #e0e0e0;
+}
+
+.info{
+  flex : 0 0 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.expense{
+  margin-right: 2rem;
+}
+.amount {
+  font-weight: 300;
+  font-size: 1rem;
+  padding: 1px 3px;
+}
+
+.btn-wrap{
+  display: flex;
+  align-items: flex-end;
+}
+
+.clear-btn, .edit-btn{
+  background: none;
+  border : none;
+  font-size: 0.9rem;
+  outline : none;
+  cursor: pointer;
+}
+
+.clear-btn {
+    color: var(--mainRed);
+}
+
+.edit-btn {
+    color: var(--mainGreen);
+}
+
+.clear-btn:hover, .edit-btn:hover {
+  font-size: 1.01rem;
+}

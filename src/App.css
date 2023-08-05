@@ -3,6 +3,7 @@
     max-width: 1280px;
     width : 90%;
     border-radius: 20%;
+    color: var(--mainBlack);
 }
 h1 {
     color: var(--primaryColor);

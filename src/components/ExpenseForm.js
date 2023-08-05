@@ -11,7 +11,7 @@ const ExpenseForm = ({handleCharge, charge, amount, handleAmount, handleSubmit, 
           </div>
           <div className="form-group">
             <label htmlFor="charge">비용(원)</label>
-            <input type="number" className="form-control" id="amount" name="amount" placeholder="예) 100" value={amount} onChange={handleAmount}/>
+            <input type="text" className="form-control" id="amount" name="amount" placeholder="예) 100" value={amount} onChange={handleAmount}/>
           </div>
         </div>
         <button type="submit" className="btn">{edit? '수정하기' : '제출하기'}</button>

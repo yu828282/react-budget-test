@@ -18,7 +18,11 @@ label {
     border: none;
     border-bottom: 1px solid var(--secondColor);
     outline: none;
-    height: 3rem;
+    height: 2rem;
     width: 100%;
-    
+    font-size: 1.1rem;;
+}
+
+.form-control:focus {
+    border-bottom: 3px solid var(--secondColor);
 }
